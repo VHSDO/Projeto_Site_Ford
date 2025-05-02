@@ -1,9 +1,16 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
 header{
     display: flex;
 }
+
 .img{
     width: 30%;
 }
+
 .img img{
     width: 30%;
 }
@@ -21,4 +28,43 @@ header{
     font-size: 26px;
     font-family: Arial, Helvetica, sans-serif;
     
+}
+
+.principal img{
+    width: 80%;
+}
+
+.principal{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    display: flex;
+    bottom: 0%;
+    position: fixed;
+    background-color: #1b357e;
+    width: 98%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+
+
+
+.redes p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-rodape{
+    display: flex;
+    color: white;
+    align-items: end;
 }
