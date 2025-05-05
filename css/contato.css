@@ -37,6 +37,11 @@ main{
     margin-top: 5%;
 }
 
+#principal{
+    display: flex;
+    flex-direction: column;
+}
+
 .formulario{
     display: flex;
     flex-direction: column;
@@ -77,9 +82,20 @@ main{
 
 }
 
-#botao{
+
+.box{
+    display: flex;
     margin: 5px;
     border-radius: 7px;
+    padding: 10px 80px;
+    border-color: white;
+    color: white;
+    background-color: #1351d8;
+}
+
+.row:hover > [class*=box] {
+    background-color:white;
+    color: #1351d8;
 }
 
 footer{
