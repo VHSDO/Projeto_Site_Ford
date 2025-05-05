@@ -96,6 +96,7 @@ main{
 .row:hover > [class*=box] {
     background-color:white;
     color: #1351d8;
+    border-color: #1351d8;
 }
 
 footer{

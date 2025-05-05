@@ -82,6 +82,12 @@ section{
     background-color: #1351d8;
 }
 
+.botao:hover > [class*=button]{
+    background-color: white;
+    color: #1351d8;
+    border-color: #1351d8;
+}
+
 footer{
     display: flex;
     bottom: 0%;
