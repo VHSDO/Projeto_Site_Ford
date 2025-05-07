@@ -51,37 +51,37 @@ main{
     padding: 5px;
     margin: 5px;
     border-radius: 7px;
-
 }
 
 #sobrenome_usuario{
     padding: 5px;
     margin: 5px;
     border-radius: 7px;
-
 }
 
 #email_usuario{
     padding: 5px;
     margin: 5px;
     border-radius: 7px;
-
 }
 
 #cpf_usuario{
     padding: 5px;
     margin: 5px;
     border-radius: 7px;
-
 }
 
 #telefone_usuario{
     padding: 5px;
     margin: 5px;
     border-radius: 7px;
-
 }
 
+#opcoes{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 7px;
+}
 
 .box{
     display: flex;
@@ -93,7 +93,13 @@ main{
     background-color: #1351d8;
 }
 
-.row:hover > [class*=box] {
+.box:hover {
+    background-color:rgb(14, 0, 90);
+    color: #ffffff;
+    border-color: rgb(14, 0, 90);
+}
+
+.box:active {
     background-color:white;
     color: #1351d8;
     border-color: #1351d8;

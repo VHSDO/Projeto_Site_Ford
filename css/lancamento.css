@@ -6,10 +6,10 @@
 header{
     display: flex;
 }
-.img{
+.logo_ford{
     width: 30%;
 }
-.img img{
+.logo_ford img{
     width: 30%;
 }
 
@@ -54,7 +54,13 @@ section{
 
 .texto_carros input{
     display: flex;
-    width: 15%;
+    width: 10%;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.texto_carros label{
+    margin-left: 10px;
 }
 
 .texto_carros{
@@ -62,19 +68,20 @@ section{
     justify-content: center;
 }
 
-.texto_carros img{
-    width: 10%;
-    margin-left: 5%;
+
+.info{
+    width: 200%;
+    margin-left: 50%;
 }
 
-.botao{
+.row{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 2%  0%;
 }
 
-.botao input{
+.box{
     border-radius: 20px;
     border-color: white;
     padding: 1% 5%;
@@ -82,8 +89,14 @@ section{
     background-color: #1351d8;
 }
 
-.botao:hover > [class*=button]{
-    background-color: white;
+.box:hover {
+    background-color:rgb(14, 0, 90);
+    color: #ffffff;
+    border-color: rgb(14, 0, 90);
+}
+
+.box:active{
+    background-color:white;
     color: #1351d8;
     border-color: #1351d8;
 }
