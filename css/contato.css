@@ -7,11 +7,11 @@ header{
     display: flex;
 }
 
-.img{
+.foto{
     width: 30%;
 }
 
-.img img{
+.foto img{
     width: 30%;
 }
 
@@ -133,4 +133,34 @@ footer{
     display: flex;
     color: white;
     align-items: end;
+}
+
+@media (max-width: 750px){
+    .foto img{
+        width: 70px;
+     }
+ 
+     .navegacao a {
+         font-size: 15px;
+     }
+
+     main{
+        flex-direction: column;
+     }
+
+     .redes p {
+        font-size: small;
+     }
+
+     .redes img{
+        width: 25px;
+     }
+
+     .img-rodape{
+        font-size: small;
+     }
+
+     .img-rodape img{
+        width: 55px;
+     }
 }

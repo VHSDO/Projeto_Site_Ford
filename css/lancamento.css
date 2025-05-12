@@ -54,7 +54,6 @@ section{
 
 .texto_carros input{
     display: flex;
-    width: 10%;
     align-items: center;
     margin-bottom: 15px;
 }
@@ -70,8 +69,7 @@ section{
 
 
 .info{
-    width: 200%;
-    margin-left: 50%;
+    width: 100%;
 }
 
 .row{
@@ -128,4 +126,50 @@ footer{
     display: flex;
     color: white;
     align-items: end;
+}
+
+@media (max-width: 750px) {
+    .logo_ford img{
+       width: 60%;
+    }
+
+    .navegacao a {
+        font-size: 15px;
+    }
+
+    iframe{
+        height: 320px;
+    }
+
+    section{
+        flex-direction: column;
+    }
+
+    .carros{
+        width: 35%;
+    }
+
+    .texto_carros input{
+        width: 15px;
+    }
+
+    .texto_carros label{
+        font-size: 12px;
+    }
+
+    .redes p {
+        font-size: small;
+    }
+
+    .redes img{
+        width: 25px;
+    }
+
+    .img-rodape{
+        font-size: small;
+    }
+
+    .img-rodape img{
+        width: 55px;
+    }
 }
