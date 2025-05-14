@@ -157,6 +157,10 @@ footer{
         font-size: 12px;
     }
 
+    footer{
+        position: fixed;
+    }
+
     .redes p {
         font-size: small;
     }
