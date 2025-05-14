@@ -38,39 +38,30 @@ main{
     justify-content: center;
 }
 
-section{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0% 15%;
-}
-
-.carros{
-    width: 25%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.texto_carros input{
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-}
-
-.texto_carros label{
-    margin-left: 10px;
-}
-
-.texto_carros{
-    display: flex;
-    justify-content: center;
-}
-
-
-.info{
+table {
     width: 100%;
-}
+    text-align: center;
+    border-collapse: collapse;
+    margin-top: 50px;
+  }
+
+  td {
+    padding: 20px;
+    vertical-align: top;
+  }
+
+
+  .modelo {
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+  }
+
+  .info {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    vertical-align: middle;
+  }
 
 .row{
     display: flex;
@@ -141,24 +132,16 @@ footer{
         height: 320px;
     }
 
-    section{
+    tr{
+        display: flex;
         flex-direction: column;
     }
 
-    .carros{
-        width: 35%;
-    }
-
-    .texto_carros input{
-        width: 15px;
-    }
-
-    .texto_carros label{
-        font-size: 12px;
-    }
-
-    footer{
-        position: fixed;
+    td{
+        width: 50%;
+        margin-left: 85px;
+        display: flex;
+        flex-direction: column;
     }
 
     .redes p {

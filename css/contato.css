@@ -53,19 +53,8 @@ main{
     border-radius: 7px;
 }
 
-#sobrenome_usuario{
-    padding: 5px;
-    margin: 5px;
-    border-radius: 7px;
-}
 
 #email_usuario{
-    padding: 5px;
-    margin: 5px;
-    border-radius: 7px;
-}
-
-#cpf_usuario{
     padding: 5px;
     margin: 5px;
     border-radius: 7px;
@@ -78,6 +67,12 @@ main{
 }
 
 #opcoes{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+#mensagem{
     padding: 5px;
     margin: 5px;
     border-radius: 7px;
