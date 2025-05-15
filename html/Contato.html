@@ -27,16 +27,16 @@
         <section id="principal">
             <div class="formulario">
                 <p><strong>Sobre Você</strong></p>
-                <input type="text" name="nome" id="nome_usuario" placeholder="NOME*">
-                <input type="email" name="email" id="email_usuario" placeholder="E-MAIL*">
-                <input type="number" name="telefone" id="telefone_usuario" placeholder="TELEFONE*">
-                <select name="opcoes" id="opcoes">
-                    <option selected disabled value="contato">TIPO DE CONTATO*</option>
+                <input type="text" name="nome" id="nome_usuario" placeholder="NOME*" required>
+                <input type="email" name="email" id="email_usuario" placeholder="E-MAIL*" required>
+                <input type="number" name="telefone" id="telefone_usuario" placeholder="TELEFONE*" required>
+                <select name="opcoes" id="opcoes" required>
+                    <option selected disabled value="contato" >TIPO DE CONTATO*</option>
                     <option value="">Elogio</option>
                     <option value="">Reclamação</option>
                     <option value="">Solicitação</option>
                 </select>
-                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="MENSAGEM*"></textarea>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="MENSAGEM*" required></textarea>
             </div>
             <div class="row">
                 <button class="box">Enviar</button>
